@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Muhammad Arslan</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      html {
+        scroll-behavior: smooth; /* Enable smooth scrolling */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <div class="logo">Muhammad Arslan</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <!-- Added id="home" -->
+      <div class="hero-content">
+        <h1>Hi, I'm <span class="highlight">MUHAMMAD ARSLAN</span></h1>
+        <p class="subtitle">Full Stack Developer & Software Engineer</p>
+        <div class="buttons">
+          <a
+            href="https://docs.google.com/document/d/1pIB7DlXWPOopmQ3zcbkZ4ijEFebtuHePYbezNacr7Yg/edit?usp=sharing"
+            class="btn primary-btn"
+            target="_blank"
+            >Resume</a
+          >
+
+          <a href="#contact" class="btn secondary-btn">Contact</a>
+        </div>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/muhammadarslan-" target="_blank">
+            <img src="./icons8-linkedin-48.png" alt="LinkedIn" />
+          </a>
+          <a href="https://github.com/muhammadarslan77" target="_blank"
+            ><img src="./icons8-github-48.png" alt="GitHub"
+          /></a>
+
+          <a href="#"><img src="./icons8-whatsapp-48.png" alt="WhatsApp" /></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <img
+          src="./Screenshot 2024-08-21 013437.png"
+          alt="Your Photo"
+          class="about-photo"
+        />
+        <p>
+          I’m a Full Stack Developer with a passion for coding and technology.
+          Over the years, I’ve worked on numerous projects, both as a freelancer
+          and as part of various teams. My expertise includes modern
+          technologies such as HTML, CSS, JavaScript, React, Node.js, and more.
+        </p>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+      <h2>My Projects</h2>
+      <div class="project-cards">
+        <div class="card">
+          <a href="project1.html">
+            <img
+              src="./SocialSpark AI - Manage Your Online Presence.png"
+              alt="Project 1"
+              class="project-image"
+            />
+            <h3>Project 1</h3>
+            <p>
+              A web app that enhances team collaboration through seamless task
+              management.
+            </p>
+          </a>
+        </div>
+        <div class="card">
+          <a href="project2.html">
+            <img
+              src="path/to/project2-image.jpg"
+              alt="Project 2"
+              class="project-image"
+            />
+            <h3>Project 2</h3>
+            <p>
+              An intuitive financial tracker to manage budgets and monitor
+              expenses.
+            </p>
+          </a>
+        </div>
+        <div class="card">
+          <a href="project3.html">
+            <img
+              src="path/to/project3-image.jpg"
+              alt="Project 3"
+              class="project-image"
+            />
+            <h3>Project 3</h3>
+            <p>
+              An e-commerce platform with a fully integrated payment gateway and
+              shopping experience.
+            </p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>HTML & CSS</li>
+        <li>JavaScript & React.js</li>
+        <li>Node.js & Express.js</li>
+        <li>MongoDB & SQL</li>
+        <li>Version Control (Git, GitHub)</li>
+        <li>Responsive Web Design</li>
+        <li>Generative AI</li>
+      </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <h2>Contact Me</h2>
+      <form action="https://formspree.io/f/xvgooogn" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn primary-btn">Send Message</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Muhammad Arslan. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
